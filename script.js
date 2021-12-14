@@ -63,7 +63,7 @@ function slowScroll(){
   function slideLeft(){
     sections.forEach((sec) =>{
 
-      const height = window.innerHeight * 0.8;
+      const height = window.innerHeight * 0.9;
       const top = sec.getBoundingClientRect().top - height;
       if(top < 0){
         sec.classList.add('ativo');
